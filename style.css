@@ -1,0 +1,87 @@
+
+*
+{
+    padding: 0px;
+    margin: 0px;
+    background-color: #E5625E;
+}
+
+h1
+{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Ubuntu', sans-serif;
+    color: #000505;
+    font-size: 2rem;
+    margin-top: 20px;
+}
+
+.container
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.box
+{
+    height: 130px;
+    width: 130px;
+    margin:10px 10px;
+    background-color: #3B3355;
+    color: #F9C784;
+    font-size: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px -2px black;
+    cursor: pointer;
+}
+
+.container button
+{
+    border: none;
+    border-radius: 5px;
+}
+
+.main-container
+{
+    align-items: center;
+    text-align: center;
+}
+
+.reset
+{
+    color: white;
+    background-color: black;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 15px;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+.msg-container
+{
+    margin-top: 6px;
+    font-size: 20px;
+}
+
+.new_game
+{
+    width: 130px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 20px;
+    border-radius: 15px;
+    margin-left: 20px;
+    cursor: pointer;
+
+}
